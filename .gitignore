@@ -1,0 +1,59 @@
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de configuración de entorno
+.env
+
+# Dependencias
+node_modules/
+bower_components/
+
+# Logs
+logs/
+*.log
+
+# Compilación y producción
+dist/
+build/
+
+# IDEs y editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos temporales y de backup
+tmp/
+temp/
+*.bak
+*.tmp
+*.temp
+
+# Archivos de test
+coverage/
+
+# Directorios de sistemas de versión
+.svn/
+.hg/
+.git/
+
+# Archivos de sistema
+*.DS_Store
+*.vscode
+*.bak
+*.swp
+*.swm
+*.swl
+*.pid
+*.seed
+*.state
+
+# Otros
+*.tar.gz
+*.tgz
+*.zip
+*.rar

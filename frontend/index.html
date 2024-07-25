@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatGPT Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <h2>ChatGPT Clone</h2>
+            <ul id="model-list">
+                <li data-model="GPT-4o">GPT-4o</li>
+                <li data-model="GPT-4">GPT-4</li>
+                <li data-model="GPT-4 Turbo">GPT-4 Turbo</li>
+                <li data-model="GPT-3.5 Turbo">GPT-3.5 Turbo</li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="chat-header">
+                <h2 id="chat-header-title">Select a model</h2>
+            </div>
+            <div class="chat-box">
+                <!-- Los mensajes del chat aparecerán aquí -->
+            </div>
+            <div class="chat-input">
+                <input type="text" id="message-input" placeholder="Envía un mensaje a ChatGPT">
+                <button id="send-btn">Enviar</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
